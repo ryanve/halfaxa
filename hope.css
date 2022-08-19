@@ -1,0 +1,15 @@
+html {
+  font-size: max(20pt, 12vmin);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+:focus {
+  outline-style: groove;
+  outline-width: thick;
+}
